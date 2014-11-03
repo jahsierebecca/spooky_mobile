@@ -1,3 +1,4 @@
+
 /* @import 'pcs/spooky_mobile/scary.scss';   */
 
  h1 {
@@ -31,6 +32,7 @@ li a {
 #wrapper {
   background-color: lightgrey;
 }
+
 
 
 /* Initial body */
@@ -108,3 +110,4 @@ footer {
   clear:both;
   background-color: orange;
 }
+
