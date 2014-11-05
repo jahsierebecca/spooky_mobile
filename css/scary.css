@@ -1,0 +1,203 @@
+/* line 45, ../scss/scary.scss */
+.article_one {
+  margin-left: 15px;
+  @font-face {
+    font-family: Advent Pro;
+    src: url(http://fonts.googleapis.com/css?family=Advent+Pro:400,100);
+}
+
+  @font-face {
+    font-family: Josefin Sans;
+    src: url(http://fonts.googleapis.com/css?family=Josefin+Sans:100,400);
+}
+
+}
+/* line 12, ../scss/scary.scss */
+.article_one h2 {
+  font-family: 'Advent Pro', sans-serif;
+  color: darkred;
+  font-size: 20px;
+  font-family: 'Advent Pro', sans-serif;
+  color: darkred;
+  font-size: 20px;
+}
+/* line 30, ../scss/scary.scss */
+.article_one p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+  font-size: 13px;
+}
+/* line 38, ../scss/scary.scss */
+.article_one h1 {
+  color: red;
+}
+
+/* line 46, ../scss/scary.scss */
+.article_two {
+  margin-left: 15px;
+  @font-face {
+    font-family: Advent Pro;
+    src: url(http://fonts.googleapis.com/css?family=Advent+Pro:400,100);
+}
+
+  @font-face {
+    font-family: Josefin Sans;
+    src: url(http://fonts.googleapis.com/css?family=Josefin+Sans:100,400);
+}
+
+}
+/* line 12, ../scss/scary.scss */
+.article_two h2 {
+  font-family: 'Advent Pro', sans-serif;
+  color: darkred;
+  font-size: 20px;
+  font-family: 'Advent Pro', sans-serif;
+  color: darkred;
+  font-size: 20px;
+}
+/* line 30, ../scss/scary.scss */
+.article_two p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+  font-size: 13px;
+}
+/* line 38, ../scss/scary.scss */
+.article_two h1 {
+  color: red;
+}
+
+/* line 47, ../scss/scary.scss */
+.article_three {
+  margin-left: 15px;
+  @font-face {
+    font-family: Advent Pro;
+    src: url(http://fonts.googleapis.com/css?family=Advent+Pro:400,100);
+}
+
+  @font-face {
+    font-family: Josefin Sans;
+    src: url(http://fonts.googleapis.com/css?family=Josefin+Sans:100,400);
+}
+
+}
+/* line 12, ../scss/scary.scss */
+.article_three h2 {
+  font-family: 'Advent Pro', sans-serif;
+  color: darkred;
+  font-size: 20px;
+  font-family: 'Advent Pro', sans-serif;
+  color: darkred;
+  font-size: 20px;
+}
+/* line 30, ../scss/scary.scss */
+.article_three p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+  font-size: 13px;
+}
+/* line 38, ../scss/scary.scss */
+.article_three h1 {
+  color: red;
+}
+
+/* line 48, ../scss/scary.scss */
+.article_four {
+  margin-left: 15px;
+  @font-face {
+    font-family: Advent Pro;
+    src: url(http://fonts.googleapis.com/css?family=Advent+Pro:400,100);
+}
+
+  @font-face {
+    font-family: Josefin Sans;
+    src: url(http://fonts.googleapis.com/css?family=Josefin+Sans:100,400);
+}
+
+}
+/* line 12, ../scss/scary.scss */
+.article_four h2 {
+  font-family: 'Advent Pro', sans-serif;
+  color: darkred;
+  font-size: 20px;
+  font-family: 'Advent Pro', sans-serif;
+  color: darkred;
+  font-size: 20px;
+}
+/* line 30, ../scss/scary.scss */
+.article_four p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+  font-size: 13px;
+}
+/* line 38, ../scss/scary.scss */
+.article_four h1 {
+  color: red;
+}
+
+/* line 49, ../scss/scary.scss */
+.article_five {
+  margin-left: 15px;
+  @font-face {
+    font-family: Advent Pro;
+    src: url(http://fonts.googleapis.com/css?family=Advent+Pro:400,100);
+}
+
+  @font-face {
+    font-family: Josefin Sans;
+    src: url(http://fonts.googleapis.com/css?family=Josefin+Sans:100,400);
+}
+
+}
+/* line 12, ../scss/scary.scss */
+.article_five h2 {
+  font-family: 'Advent Pro', sans-serif;
+  color: darkred;
+  font-size: 20px;
+  font-family: 'Advent Pro', sans-serif;
+  color: darkred;
+  font-size: 20px;
+}
+/* line 30, ../scss/scary.scss */
+.article_five p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+  font-size: 13px;
+}
+/* line 38, ../scss/scary.scss */
+.article_five h1 {
+  color: red;
+}
+
+/* line 50, ../scss/scary.scss */
+.article_six {
+  margin-left: 15px;
+  @font-face {
+    font-family: Advent Pro;
+    src: url(http://fonts.googleapis.com/css?family=Advent+Pro:400,100);
+}
+
+  @font-face {
+    font-family: Josefin Sans;
+    src: url(http://fonts.googleapis.com/css?family=Josefin+Sans:100,400);
+}
+
+}
+/* line 12, ../scss/scary.scss */
+.article_six h2 {
+  font-family: 'Advent Pro', sans-serif;
+  color: darkred;
+  font-size: 20px;
+  font-family: 'Advent Pro', sans-serif;
+  color: darkred;
+  font-size: 20px;
+}
+/* line 30, ../scss/scary.scss */
+.article_six p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+  font-size: 13px;
+}
+/* line 38, ../scss/scary.scss */
+.article_six h1 {
+  color: red;
+}
