@@ -5,8 +5,59 @@
   menu- no slider or menu bar. No scroll
   move the title
   */
- 
+
+  @mixin new-image {
+  
+width: 145px;
+height: 145px; 
+margin: 0 20px 10px 25px;
+
 }
+ 
+.image1 { 
+
+@include new-image;
+float: left;
+ }
+
+.image2 { 
+
+@include new-image; 
+float: right;
+}
+
+.image3 { 
+
+@include new-image;
+float: left;
+ }
+
+ .logo {
+
+ margin: 35px;
+ height: 200px;
+ width: 200px;
+ position: fixed;
+
+
+ }
+
+ p {
+
+ font-size: 18px;
+ }
+
+h2 {
+  font-size: 25px;
+}
+
+
+}
+
+
+
+
+
 
  h1 {
   position: fixed;
@@ -164,6 +215,40 @@ p {
 .article_five { 
 @include article; 
 margin-bottom: 60px;
+
+}
+
+
+/* images style */
+
+@mixin image {
+  
+width: 75px;
+height: 75px; 
+margin: 0 10px 5px 25px;
+
+}
+
+.image1 { 
+
+@include image;
+float: left;
+
+ }
+
+.image2 { 
+
+@include image; 
+float: right;
+margin: 0 30px 5px 15px;
+
+
+}
+
+.image3 { 
+
+@include image; 
+float: left;
 
 }
 
