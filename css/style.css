@@ -1,4 +1,4 @@
-/* line 3, ../scss/style.scss */
+/* line 1, ../scss/style.scss */
 h1 {
   position: fixed;
   background: orange;
@@ -8,10 +8,11 @@ h1 {
   text-align: center;
   margin: 0;
   color: white;
-  padding: 5px 5px;
+  padding: 7px 7px;
+  z-index: 1;
 }
 
-/* line 15, ../scss/style.scss */
+/* line 14, ../scss/style.scss */
 .logo {
   display: block;
   margin-left: auto;
@@ -21,24 +22,29 @@ h1 {
   height: 100px;
 }
 
-/* line 24, ../scss/style.scss */
+/* line 23, ../scss/style.scss */
+.menuLarge {
+  display: none;
+}
+
+/* line 27, ../scss/style.scss */
 ul {
   list-style: none;
 }
 
-/* line 28, ../scss/style.scss */
+/* line 31, ../scss/style.scss */
 li a {
   text-decoration: none;
   color: pink;
 }
 
-/* line 33, ../scss/style.scss */
+/* line 36, ../scss/style.scss */
 #wrapper {
   background-color: lightgrey;
 }
 
 /* Initial body */
-/* line 40, ../scss/style.scss */
+/* line 44, ../scss/style.scss */
 body {
   left: 0;
   margin: 0;
@@ -49,7 +55,7 @@ body {
 }
 
 /* Initial menu */
-/* line 50, ../scss/style.scss */
+/* line 54, ../scss/style.scss */
 .menu {
   background: #202024 url("http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png") repeat left top;
   left: -285px;
@@ -61,7 +67,7 @@ body {
 }
 
 /* Basic styling */
-/* line 61, ../scss/style.scss */
+/* line 65, ../scss/style.scss */
 .menu ul {
   border-top: 1px solid #636366;
   list-style: none;
@@ -69,7 +75,7 @@ body {
   padding: 0;
 }
 
-/* line 68, ../scss/style.scss */
+/* line 72, ../scss/style.scss */
 .menu li {
   border-bottom: 1px solid #636366;
   font-family: 'Open Sans', sans-serif;
@@ -79,7 +85,7 @@ body {
   padding-top: 3px;
 }
 
-/* line 77, ../scss/style.scss */
+/* line 81, ../scss/style.scss */
 .menu a {
   color: #fff;
   font-size: 12px;
@@ -87,7 +93,7 @@ body {
   text-transform: uppercase;
 }
 
-/* line 84, ../scss/style.scss */
+/* line 88, ../scss/style.scss */
 .iconClose {
   color: #d2f497;
   font-size: 1.5em;
@@ -95,24 +101,24 @@ body {
   margin: 140px 0 6px 210px;
 }
 
-/* line 91, ../scss/style.scss */
+/* line 95, ../scss/style.scss */
 .iconMenu {
   color: #fff;
   cursor: pointer;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  padding: 10px 0 5px 25px;
+  padding: 2px 0 2px 25px;
   text-decoration: none;
   text-transform: uppercase;
 }
 
-/* line 102, ../scss/style.scss */
+/* line 106, ../scss/style.scss */
 section {
   margin-bottom: 50px;
   height: 92%;
 }
 
-/* line 107, ../scss/style.scss */
+/* line 111, ../scss/style.scss */
 footer {
   width: 100%;
   position: fixed;
@@ -122,7 +128,7 @@ footer {
   background-color: black;
 }
 
-/* line 122, ../scss/style.scss */
+/* line 126, ../scss/style.scss */
 .article_one h2 {
   margin-left: 40px;
   font-family: 'Advent Pro', sans-serif;
@@ -132,17 +138,18 @@ footer {
   font-size: 20px;
   font-weight: bold;
 }
-/* line 137, ../scss/style.scss */
+/* line 141, ../scss/style.scss */
 .article_one p {
   margin-left: 25px;
   font-family: 'Josefin Sans', sans-serif;
   color: black;
-  font-size: 13px;
+  font-size: 15px;
   text-align: justify;
   margin-right: 30px;
+  margin-bottom: 35px;
 }
 
-/* line 122, ../scss/style.scss */
+/* line 126, ../scss/style.scss */
 .article_two h2 {
   margin-left: 40px;
   font-family: 'Advent Pro', sans-serif;
@@ -152,17 +159,18 @@ footer {
   font-size: 20px;
   font-weight: bold;
 }
-/* line 137, ../scss/style.scss */
+/* line 141, ../scss/style.scss */
 .article_two p {
   margin-left: 25px;
   font-family: 'Josefin Sans', sans-serif;
   color: black;
-  font-size: 13px;
+  font-size: 15px;
   text-align: justify;
   margin-right: 30px;
+  margin-bottom: 35px;
 }
 
-/* line 122, ../scss/style.scss */
+/* line 126, ../scss/style.scss */
 .article_three h2 {
   margin-left: 40px;
   font-family: 'Advent Pro', sans-serif;
@@ -172,17 +180,18 @@ footer {
   font-size: 20px;
   font-weight: bold;
 }
-/* line 137, ../scss/style.scss */
+/* line 141, ../scss/style.scss */
 .article_three p {
   margin-left: 25px;
   font-family: 'Josefin Sans', sans-serif;
   color: black;
-  font-size: 13px;
+  font-size: 15px;
   text-align: justify;
   margin-right: 30px;
+  margin-bottom: 35px;
 }
 
-/* line 122, ../scss/style.scss */
+/* line 126, ../scss/style.scss */
 .article_four h2 {
   margin-left: 40px;
   font-family: 'Advent Pro', sans-serif;
@@ -192,21 +201,22 @@ footer {
   font-size: 20px;
   font-weight: bold;
 }
-/* line 137, ../scss/style.scss */
+/* line 141, ../scss/style.scss */
 .article_four p {
   margin-left: 25px;
   font-family: 'Josefin Sans', sans-serif;
   color: black;
-  font-size: 13px;
+  font-size: 15px;
   text-align: justify;
   margin-right: 30px;
+  margin-bottom: 35px;
 }
 
-/* line 156, ../scss/style.scss */
+/* line 161, ../scss/style.scss */
 .article_five {
   margin-bottom: 60px;
 }
-/* line 122, ../scss/style.scss */
+/* line 126, ../scss/style.scss */
 .article_five h2 {
   margin-left: 40px;
   font-family: 'Advent Pro', sans-serif;
@@ -216,12 +226,137 @@ footer {
   font-size: 20px;
   font-weight: bold;
 }
-/* line 137, ../scss/style.scss */
+/* line 141, ../scss/style.scss */
 .article_five p {
   margin-left: 25px;
   font-family: 'Josefin Sans', sans-serif;
   color: black;
-  font-size: 13px;
+  font-size: 15px;
   text-align: justify;
   margin-right: 30px;
+  margin-bottom: 35px;
+}
+
+/* line 175, ../scss/style.scss */
+.image1 {
+  width: 80px;
+  height: 80px;
+  margin: 0 15px 10px 25px;
+  float: left;
+}
+
+/* line 181, ../scss/style.scss */
+.image2 {
+  width: 80px;
+  height: 80px;
+  margin: 0 15px 10px 25px;
+  float: right;
+  margin: 0 30px 10px 15px;
+}
+
+/* line 189, ../scss/style.scss */
+.image3 {
+  width: 80px;
+  height: 80px;
+  margin: 0 15px 10px 25px;
+  float: left;
+}
+
+@media screen and (min-width: 300px) and (orientation: landscape) {
+  /* line 206, ../scss/style.scss */
+  .image1 {
+    width: 145px;
+    height: 145px;
+    margin: 0 20px 10px 25px;
+    float: right;
+  }
+
+  /* line 212, ../scss/style.scss */
+  .image2 {
+    width: 145px;
+    height: 145px;
+    margin: 0 20px 10px 25px;
+    float: left;
+  }
+
+  /* line 218, ../scss/style.scss */
+  .image3 {
+    width: 145px;
+    height: 145px;
+    margin: 0 20px 10px 25px;
+    float: right;
+  }
+
+  /* line 224, ../scss/style.scss */
+  .logo {
+    margin: 35px;
+    height: 200px;
+    width: 200px;
+    position: fixed;
+  }
+
+  /* line 234, ../scss/style.scss */
+  h1 {
+    display: block;
+    float: left;
+    text-align: left;
+    font-size: 40px;
+    background-color: transparent;
+    margin-left: 150px;
+    color: orange;
+    margin-top: 120px;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* line 247, ../scss/style.scss */
+  .navigation {
+    width: 22%;
+    float: left;
+    position: fixed;
+    font-size: 15px;
+  }
+  /* line 253, ../scss/style.scss */
+  .navigation .logo {
+    float: left;
+    margin-top: 0px;
+    display: block;
+    height: 200px;
+    width: 200px;
+  }
+
+  /* line 263, ../scss/style.scss */
+  menu, .iconMenu {
+    display: none;
+    clear: both;
+  }
+
+  /* line 268, ../scss/style.scss */
+  .menuLarge {
+    float: left;
+    margin-top: 200px;
+    position: fixed;
+    display: block;
+    clear: both;
+  }
+  /* line 275, ../scss/style.scss */
+  .menuLarge ul li a {
+    color: green;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 17px;
+  }
+  /* line 283, ../scss/style.scss */
+  .menuLarge ul li {
+    margin-top: 12px;
+  }
+
+  /* line 289, ../scss/style.scss */
+  section {
+    display: block;
+    float: right;
+    max-width: 800px;
+    width: 78%;
+    margin: 50px 35px;
+  }
 }

@@ -7,7 +7,8 @@
   text-align: center;
   margin: 0;
   color: white;
-  padding: 5px 5px;
+  padding: 7px 7px;
+  z-index:1;
 }
 
 .logo {
@@ -96,7 +97,7 @@ body {
   cursor: pointer;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  padding: 10px 0 5px 25px;
+  padding: 2px 0 2px 25px;
   text-decoration: none;
   text-transform: uppercase;
 
@@ -142,9 +143,10 @@ p {
     margin-left: 25px;
     font-family: 'Josefin Sans', sans-serif; 
     color: black;
-    font-size: 13px;
+    font-size: 15px;
     text-align: justify;
     margin-right: 30px;
+    margin-bottom: 35px;
 
     }
 
@@ -164,9 +166,9 @@ margin-bottom: 60px;
 
   @mixin new-image {
   
-width: 35px;
-height: 35px; 
-margin: 0 20px 10px 25px;
+width: 80px;
+height: 80px; 
+margin: 0 15px 10px 25px;
 
 }
  
@@ -180,6 +182,8 @@ float: left;
 
 @include new-image; 
 float: right;
+margin: 0 30px 10px 15px;
+
 }
 
 .image3 { 
@@ -189,12 +193,7 @@ float: left;
  }
 
 @media screen and (min-width: 300px) and (orientation: landscape) {
-  /* 
-  logo - size and position. No scroll
-  images for articles
-  menu- no slider or menu bar. No scroll
-  move the title
-  */
+  
     
       @mixin new-image {
   
@@ -207,19 +206,19 @@ margin: 0 20px 10px 25px;
 .image1 { 
 
 @include new-image;
-float: left;
+float: right;
  }
 
 .image2 { 
 
 @include new-image; 
-float: right;
+float: left;
 }
 
 .image3 { 
 
 @include new-image;
-float: left;
+float: right;
  }
 
  .logo {
@@ -235,27 +234,30 @@ float: left;
     h1 {
     display: block;    
         float: left;
-        text-align: left;
-    font-size: 42px;    
+    text-align: left;
+    font-size: 40px;    
     background-color: transparent;
         margin-left: 150px;
     color: orange;
-    margin-top: 100px;
-    position: relative;    
+    margin-top: 120px;
+    position: relative;  
+    z-index: 1;  
     }
     
     .navigation {
     width: 22%;
-        float: left;
-        position: fixed;
-          .logo { 
-              float: left;
-            margin-top: 0px;  
+    float: left;
+    position: fixed;
+    font-size: 15px;
+    
+    .logo { 
+      float: left;
+      margin-top: 0px;  
       display: block;
-    height: 200px;
-    width: 200px;          
-  }
+      height: 200px;
+      width: 200px;          
     }
+  }
     
  
   menu, .iconMenu {
@@ -268,17 +270,26 @@ float: left;
     margin-top: 200px;    
     position: fixed;
     display: block;
-        clear: both;
+    clear: both;
         ul {
             li a {
             color: green;
+            font-size: 20px;
+            font-family: 'Josefin Sans', sans-serif;
+            margin: 17px; 
+
+            }
+
+            li {
+            margin-top: 12px;
             }
         }
     }
     
     section {
         display: block;
-        float: right;           max-width: 800px;
+        float: right;           
+        max-width: 800px;
         width: 78%;
         margin: 50px 35px;
         
