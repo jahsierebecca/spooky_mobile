@@ -1,0 +1,273 @@
+h1 {
+  position: fixed;
+  background: orange;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  color: white;
+  padding: 5px 5px; }
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  width: 100px;
+  height: 100px; }
+
+.menuLarge {
+  display: none; }
+
+ul {
+  list-style: none; }
+
+li a {
+  text-decoration: none;
+  color: pink; }
+
+#wrapper {
+  background-color: lightgrey; }
+
+/* Initial body */
+body {
+  left: 0;
+  margin: 0;
+  height: 100%;
+  overflow: auto;
+  position: relative;
+  background-color: lightgrey; }
+
+/* Initial menu */
+.menu {
+  background: #202024 url("http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png") repeat left top;
+  left: -285px;
+  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  width: 250px;
+  top: 0; }
+
+/* Basic styling */
+.menu ul {
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 30px 0 0 0;
+  padding: 0; }
+
+.menu li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px; }
+
+.menu a {
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.iconClose {
+  color: #d2f497;
+  font-size: 1.5em;
+  cursor: pointer;
+  margin: 140px 0 6px 210px; }
+
+.iconMenu {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding: 10px 0 5px 25px;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+section {
+  margin-bottom: 50px;
+  height: 92%; }
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  margin-bottom: 0px;
+  clear: both;
+  background-color: black; }
+
+.article_one h2 {
+  margin-left: 40px;
+  font-family: 'Advent Pro', sans-serif;
+  color: darkred;
+  font-size: 20px;
+  color: darkred;
+  font-size: 20px;
+  font-weight: bold; }
+.article_one p {
+  margin-left: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+  font-size: 13px;
+  text-align: justify;
+  margin-right: 30px; }
+
+.article_two h2 {
+  margin-left: 40px;
+  font-family: 'Advent Pro', sans-serif;
+  color: darkred;
+  font-size: 20px;
+  color: darkred;
+  font-size: 20px;
+  font-weight: bold; }
+.article_two p {
+  margin-left: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+  font-size: 13px;
+  text-align: justify;
+  margin-right: 30px; }
+
+.article_three h2 {
+  margin-left: 40px;
+  font-family: 'Advent Pro', sans-serif;
+  color: darkred;
+  font-size: 20px;
+  color: darkred;
+  font-size: 20px;
+  font-weight: bold; }
+.article_three p {
+  margin-left: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+  font-size: 13px;
+  text-align: justify;
+  margin-right: 30px; }
+
+.article_four h2 {
+  margin-left: 40px;
+  font-family: 'Advent Pro', sans-serif;
+  color: darkred;
+  font-size: 20px;
+  color: darkred;
+  font-size: 20px;
+  font-weight: bold; }
+.article_four p {
+  margin-left: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+  font-size: 13px;
+  text-align: justify;
+  margin-right: 30px; }
+
+.article_five {
+  margin-bottom: 60px; }
+  .article_five h2 {
+    margin-left: 40px;
+    font-family: 'Advent Pro', sans-serif;
+    color: darkred;
+    font-size: 20px;
+    color: darkred;
+    font-size: 20px;
+    font-weight: bold; }
+  .article_five p {
+    margin-left: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    font-size: 13px;
+    text-align: justify;
+    margin-right: 30px; }
+
+.image1 {
+  width: 35px;
+  height: 35px;
+  margin: 0 20px 10px 25px;
+  float: left; }
+
+.image2 {
+  width: 35px;
+  height: 35px;
+  margin: 0 20px 10px 25px;
+  float: right; }
+
+.image3 {
+  width: 35px;
+  height: 35px;
+  margin: 0 20px 10px 25px;
+  float: left; }
+
+@media screen and (min-width: 300px) and (orientation: landscape) {
+  /* 
+  logo - size and position. No scroll
+  images for articles
+  menu- no slider or menu bar. No scroll
+  move the title
+  */
+  .image1 {
+    width: 145px;
+    height: 145px;
+    margin: 0 20px 10px 25px;
+    float: left; }
+
+  .image2 {
+    width: 145px;
+    height: 145px;
+    margin: 0 20px 10px 25px;
+    float: right; }
+
+  .image3 {
+    width: 145px;
+    height: 145px;
+    margin: 0 20px 10px 25px;
+    float: left; }
+
+  .logo {
+    margin: 35px;
+    height: 200px;
+    width: 200px;
+    position: fixed; }
+
+  h1 {
+    display: block;
+    float: left;
+    text-align: left;
+    font-size: 42px;
+    background-color: transparent;
+    margin-left: 150px;
+    color: orange;
+    margin-top: 100px;
+    position: relative; }
+
+  .navigation {
+    width: 22%;
+    float: left;
+    position: fixed; }
+    .navigation .logo {
+      float: left;
+      margin-top: 0px;
+      display: block;
+      height: 200px;
+      width: 200px; }
+
+  menu, .iconMenu {
+    display: none;
+    clear: both; }
+
+  .menuLarge {
+    float: left;
+    margin-top: 200px;
+    position: fixed;
+    display: block;
+    clear: both; }
+    .menuLarge ul li a {
+      color: green; }
+
+  section {
+    display: block;
+    float: right;
+    max-width: 800px;
+    width: 78%;
+    margin: 50px 35px; } }
+
+/*# sourceMappingURL=style.css.map */
