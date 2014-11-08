@@ -12,7 +12,7 @@ h1 {
   z-index: 1;
 }
 
-/* line 14, ../scss/style.scss */
+/* line 17, ../scss/style.scss */
 .logo {
   display: block;
   margin-left: auto;
@@ -22,29 +22,29 @@ h1 {
   height: 100px;
 }
 
-/* line 23, ../scss/style.scss */
+/* line 26, ../scss/style.scss */
 .menuLarge {
   display: none;
 }
 
-/* line 27, ../scss/style.scss */
+/* line 30, ../scss/style.scss */
 ul {
   list-style: none;
 }
 
-/* line 31, ../scss/style.scss */
+/* line 34, ../scss/style.scss */
 li a {
   text-decoration: none;
   color: pink;
 }
 
-/* line 36, ../scss/style.scss */
+/* line 39, ../scss/style.scss */
 #wrapper {
   background-color: lightgrey;
 }
 
 /* Initial body */
-/* line 44, ../scss/style.scss */
+/* line 47, ../scss/style.scss */
 body {
   left: 0;
   margin: 0;
@@ -55,7 +55,7 @@ body {
 }
 
 /* Initial menu */
-/* line 54, ../scss/style.scss */
+/* line 57, ../scss/style.scss */
 .menu {
   background: #202024 url("http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png") repeat left top;
   left: -285px;
@@ -67,7 +67,7 @@ body {
 }
 
 /* Basic styling */
-/* line 65, ../scss/style.scss */
+/* line 68, ../scss/style.scss */
 .menu ul {
   border-top: 1px solid #636366;
   list-style: none;
@@ -75,7 +75,7 @@ body {
   padding: 0;
 }
 
-/* line 72, ../scss/style.scss */
+/* line 75, ../scss/style.scss */
 .menu li {
   border-bottom: 1px solid #636366;
   font-family: 'Open Sans', sans-serif;
@@ -85,7 +85,7 @@ body {
   padding-top: 3px;
 }
 
-/* line 81, ../scss/style.scss */
+/* line 84, ../scss/style.scss */
 .menu a {
   color: #fff;
   font-size: 12px;
@@ -93,7 +93,7 @@ body {
   text-transform: uppercase;
 }
 
-/* line 88, ../scss/style.scss */
+/* line 91, ../scss/style.scss */
 .iconClose {
   color: #d2f497;
   font-size: 1.5em;
@@ -101,7 +101,7 @@ body {
   margin: 140px 0 6px 210px;
 }
 
-/* line 95, ../scss/style.scss */
+/* line 98, ../scss/style.scss */
 .iconMenu {
   color: #fff;
   cursor: pointer;
@@ -112,13 +112,13 @@ body {
   text-transform: uppercase;
 }
 
-/* line 106, ../scss/style.scss */
+/* line 109, ../scss/style.scss */
 section {
   margin-bottom: 50px;
   height: 92%;
 }
 
-/* line 111, ../scss/style.scss */
+/* line 114, ../scss/style.scss */
 footer {
   width: 100%;
   position: fixed;
@@ -128,7 +128,7 @@ footer {
   background-color: black;
 }
 
-/* line 126, ../scss/style.scss */
+/* line 129, ../scss/style.scss */
 .article_one h2 {
   margin-left: 40px;
   font-family: 'Advent Pro', sans-serif;
@@ -138,7 +138,7 @@ footer {
   font-size: 20px;
   font-weight: bold;
 }
-/* line 141, ../scss/style.scss */
+/* line 144, ../scss/style.scss */
 .article_one p {
   margin-left: 25px;
   font-family: 'Josefin Sans', sans-serif;
@@ -149,7 +149,7 @@ footer {
   margin-bottom: 35px;
 }
 
-/* line 126, ../scss/style.scss */
+/* line 129, ../scss/style.scss */
 .article_two h2 {
   margin-left: 40px;
   font-family: 'Advent Pro', sans-serif;
@@ -159,7 +159,7 @@ footer {
   font-size: 20px;
   font-weight: bold;
 }
-/* line 141, ../scss/style.scss */
+/* line 144, ../scss/style.scss */
 .article_two p {
   margin-left: 25px;
   font-family: 'Josefin Sans', sans-serif;
@@ -170,7 +170,7 @@ footer {
   margin-bottom: 35px;
 }
 
-/* line 126, ../scss/style.scss */
+/* line 129, ../scss/style.scss */
 .article_three h2 {
   margin-left: 40px;
   font-family: 'Advent Pro', sans-serif;
@@ -180,7 +180,7 @@ footer {
   font-size: 20px;
   font-weight: bold;
 }
-/* line 141, ../scss/style.scss */
+/* line 144, ../scss/style.scss */
 .article_three p {
   margin-left: 25px;
   font-family: 'Josefin Sans', sans-serif;
@@ -191,7 +191,7 @@ footer {
   margin-bottom: 35px;
 }
 
-/* line 126, ../scss/style.scss */
+/* line 129, ../scss/style.scss */
 .article_four h2 {
   margin-left: 40px;
   font-family: 'Advent Pro', sans-serif;
@@ -201,7 +201,7 @@ footer {
   font-size: 20px;
   font-weight: bold;
 }
-/* line 141, ../scss/style.scss */
+/* line 144, ../scss/style.scss */
 .article_four p {
   margin-left: 25px;
   font-family: 'Josefin Sans', sans-serif;
@@ -212,11 +212,11 @@ footer {
   margin-bottom: 35px;
 }
 
-/* line 161, ../scss/style.scss */
+/* line 164, ../scss/style.scss */
 .article_five {
   margin-bottom: 60px;
 }
-/* line 126, ../scss/style.scss */
+/* line 129, ../scss/style.scss */
 .article_five h2 {
   margin-left: 40px;
   font-family: 'Advent Pro', sans-serif;
@@ -226,7 +226,7 @@ footer {
   font-size: 20px;
   font-weight: bold;
 }
-/* line 141, ../scss/style.scss */
+/* line 144, ../scss/style.scss */
 .article_five p {
   margin-left: 25px;
   font-family: 'Josefin Sans', sans-serif;
@@ -237,7 +237,7 @@ footer {
   margin-bottom: 35px;
 }
 
-/* line 175, ../scss/style.scss */
+/* line 178, ../scss/style.scss */
 .image1 {
   width: 80px;
   height: 80px;
@@ -245,7 +245,7 @@ footer {
   float: left;
 }
 
-/* line 181, ../scss/style.scss */
+/* line 184, ../scss/style.scss */
 .image2 {
   width: 80px;
   height: 80px;
@@ -254,7 +254,7 @@ footer {
   margin: 0 30px 10px 15px;
 }
 
-/* line 189, ../scss/style.scss */
+/* line 192, ../scss/style.scss */
 .image3 {
   width: 80px;
   height: 80px;
@@ -263,7 +263,7 @@ footer {
 }
 
 @media screen and (min-width: 300px) and (orientation: landscape) {
-  /* line 206, ../scss/style.scss */
+  /* line 209, ../scss/style.scss */
   .image1 {
     width: 145px;
     height: 145px;
@@ -271,7 +271,7 @@ footer {
     float: right;
   }
 
-  /* line 212, ../scss/style.scss */
+  /* line 215, ../scss/style.scss */
   .image2 {
     width: 145px;
     height: 145px;
@@ -279,7 +279,7 @@ footer {
     float: left;
   }
 
-  /* line 218, ../scss/style.scss */
+  /* line 221, ../scss/style.scss */
   .image3 {
     width: 145px;
     height: 145px;
@@ -287,7 +287,7 @@ footer {
     float: right;
   }
 
-  /* line 224, ../scss/style.scss */
+  /* line 227, ../scss/style.scss */
   .logo {
     margin: 35px;
     height: 200px;
@@ -295,7 +295,7 @@ footer {
     position: fixed;
   }
 
-  /* line 234, ../scss/style.scss */
+  /* line 237, ../scss/style.scss */
   h1 {
     display: block;
     float: left;
@@ -307,16 +307,18 @@ footer {
     margin-top: 120px;
     position: relative;
     z-index: 1;
+    text-shadow: 0px 0px 5px #969696;
+    text-shadow: 61px 43px 7px rgba(150, 150, 150, 0);
   }
 
-  /* line 247, ../scss/style.scss */
+  /* line 253, ../scss/style.scss */
   .navigation {
     width: 22%;
     float: left;
     position: fixed;
     font-size: 15px;
   }
-  /* line 253, ../scss/style.scss */
+  /* line 259, ../scss/style.scss */
   .navigation .logo {
     float: left;
     margin-top: 0px;
@@ -325,13 +327,13 @@ footer {
     width: 200px;
   }
 
-  /* line 263, ../scss/style.scss */
+  /* line 269, ../scss/style.scss */
   menu, .iconMenu {
     display: none;
     clear: both;
   }
 
-  /* line 268, ../scss/style.scss */
+  /* line 274, ../scss/style.scss */
   .menuLarge {
     float: left;
     margin-top: 200px;
@@ -339,24 +341,49 @@ footer {
     display: block;
     clear: both;
   }
-  /* line 275, ../scss/style.scss */
+  /* line 281, ../scss/style.scss */
   .menuLarge ul li a {
     color: green;
     font-size: 20px;
     font-family: 'Josefin Sans', sans-serif;
     margin: 17px;
+    text-shadow: 1px 0 0 rgba(0, 0, 0, 0), -1px 0 0 rgba(0, 0, 0, 0), 0 1px 0 rgba(0, 0, 0, 0), 0 -1px 0 rgba(0, 0, 0, 0), 1px 1px rgba(0, 0, 0, 0), -1px -1px 0 rgba(0, 0, 0, 0), 1px -1px 0 rgba(0, 0, 0, 0), -1px 1px 0 rgba(0, 0, 0, 0);
   }
-  /* line 283, ../scss/style.scss */
+  /* line 291, ../scss/style.scss */
   .menuLarge ul li {
     margin-top: 12px;
   }
 
-  /* line 289, ../scss/style.scss */
+  /* line 297, ../scss/style.scss */
   section {
     display: block;
     float: right;
     max-width: 800px;
     width: 78%;
     margin: 50px 35px;
+  }
+
+  /* line 306, ../scss/style.scss */
+  p {
+    text-shadow: 0px 0px 1px rgba(255, 179, 0, 0);
+  }
+
+  /* line 311, ../scss/style.scss */
+  .sec-title {
+    color: lightgrey;
+    text-shadow: -32px -68px 7px rgba(150, 150, 150, 0);
+    margin: -50px 30px 0 460px;
+  }
+
+  /* line 318, ../scss/style.scss */
+  .third-title {
+    color: lightgrey;
+    text-shadow: -32px -68px 7px rgba(150, 150, 150, 0);
+    margin: 80px 0px 0 860px;
+  }
+
+  /* line 325, ../scss/style.scss */
+  .article_one {
+    margin-top: -95px;
   }
 }
